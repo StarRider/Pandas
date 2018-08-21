@@ -42,4 +42,5 @@ col_index = ['Blah ' + str(i) for i in range(len(blah[0]))]
 row_index = [i for i in range(len(blah))]
 blah_data = pd.DataFrame(data = blah,index = row_index,columns = col_index)
 
+print(blah_data)
 
